@@ -1,20 +1,47 @@
 {
-  "name": "hema-code",
-  "version": "1.0.0",
+  "private": false,
+  "name": "@yourname/3d-gym-renderer",
+  "version": "1.3.0",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "run:dev": "nodemon index.js"
+  "main": "ModelsRenderer.jsx",
+  "exports": {
+    ".": "./ModelsRenderer.jsx"
   },
-  "bin":"./index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "3d",
+    "react",
+    "three.js",
+    "renderer",
+    "model-viewer",
+    "gltf"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "description": "A professional 3D model renderer component for React using Three.js. Render GLTF/GLB models with interactive controls, lighting, camera adjustments, and responsive design.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/3d-gym-renderer"
+  },
+  "bugs": {
+    "url": "https://github.com/yourname/3d-gym-renderer/issues"
+  },
+  "homepage": "https://github.com/yourname/3d-gym-renderer#readme",
+  "files": [
+    "ModelsRenderer.jsx",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "three": "^r128.0.0"
+  },
   "dependencies": {
-    "commander": "^14.0.0",
-    "inquirer": "^12.9.3"
+    "@react-three/fiber": "^8.0.0",
+    "@react-three/drei": "^9.0.0",
+    "leva": "^0.9.0"
   }
 }

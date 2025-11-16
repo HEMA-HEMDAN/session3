@@ -1,0 +1,33 @@
+# Development files
+node_modules/
+.git/
+.gitignore
+.npmignore
+scripts/
+.eslintrc
+.prettierrc
+
+# Testing
+*.test.js
+*.spec.js
+__tests__/
+
+# Build artifacts
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+.env
+.env.local
