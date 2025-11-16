@@ -3,7 +3,7 @@ import { Environment, Float, OrbitControls, useGLTF } from "@react-three/drei";
 import { Leva, useControls } from "leva";
 import { useEffect, useRef, useState } from "react";
 
-const GymRenderer = ({ model }) => {
+const ModelRenderer = ({ model }) => {
   const [isMobile, setIsMobile] = useState(false);
   const gltfScene = useGLTF(model.modelPath);
 
@@ -104,4 +104,4 @@ const GymRenderer = ({ model }) => {
   );
 };
 
-export default GymRenderer;
+export default ModelRenderer;

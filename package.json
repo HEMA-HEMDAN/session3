@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@eng-hema/3drenderer",
+  "name": "3drenderer",
   "version": "1.0.0",
   "type": "module",
   "main": "ModelsRenderer.jsx",

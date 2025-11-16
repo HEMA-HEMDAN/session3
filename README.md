@@ -1,27 +1,26 @@
-# 3D Gym Renderer
+# 3D Renderer
 
 A professional React component for rendering and interacting with 3D GLTF/GLB models using Three.js.
 
 ## Features
 
-- 🎨 **Interactive 3D Model Viewer** - Render GLTF/GLB models in React
-- 🎮 **Real-time Controls** - Adjust camera, lights, and model transforms
-- 📱 **Responsive Design** - Works seamlessly on desktop and mobile
-- 💡 **Lighting System** - Ambient, directional, and hemisphere lighting with controls
-- 🔄 **Auto-rotation** - Models automatically rotate for better presentation
-- 🌍 **Environment Presets** - Built-in city environment for realistic rendering
-- ⚙️ **Leva Control Panel** - Easy-to-use debug UI for adjustments
+- 🎨 **Interactive 3D Model Viewer** — Render GLTF/GLB models in React
+- 🎮 **Real-time Controls** — Adjust camera, lights, and model transforms via Leva
+- 📱 **Responsive Design** — Disables orbit controls on small screens
+- 💡 **Lighting System** — Ambient, directional, and hemisphere lighting with controls
+- 🔄 **Auto-rotation** — Models rotate for better presentation
+- 🌍 **Environment Presets** — Uses Drei `Environment` presets for realistic lighting
 
 ## Installation
 
 ```bash
-npm install @yourname/3d-gym-renderer
+npm install 3drenderer
 ```
 
 ## Usage
 
 ```jsx
-import GymRenderer from "@yourname/3d-gym-renderer";
+import GymRenderer from "3drenderer";
 
 export default function App() {
   return (
@@ -38,14 +37,14 @@ export default function App() {
 
 ### `model` (required)
 
-- **`modelPath`** (string): Path to your GLTF/GLB model file
+- **`modelPath`** (string): Path or URL to your GLTF/GLB model file
 
 ## Controls
 
 ### Camera
 
 - **Position X, Y, Z**: Adjust camera position in 3D space
-- **FOV**: Field of view angle (20-100)
+- **FOV**: Field of view angle (20–100)
 
 ### Lights
 
@@ -63,9 +62,9 @@ export default function App() {
 
 - React 18+
 - Three.js
-- @react-three/fiber
-- @react-three/drei
-- leva
+- `@react-three/fiber`
+- `@react-three/drei`
+- `leva`
 
 ## License
 
@@ -73,8 +72,8 @@ MIT
 
 ## Author
 
-Your Name
+hema hemdan
 
 ## Support
 
-For issues and feature requests, please visit: https://github.com/yourname/3d-gym-renderer/issues
+For issues and feature requests, please visit: https://github.com/HEMA-HEMDAN/3drenderer/issues
