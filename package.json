@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@yourname/3d-gym-renderer",
-  "version": "1.3.0",
+  "name": "@eng-hema/3drenderer",
+  "version": "1.0.0",
   "type": "module",
   "main": "ModelsRenderer.jsx",
   "exports": {
@@ -18,17 +18,14 @@
     "model-viewer",
     "gltf"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "hema hemdan <contact@ibrahim-hemdan.com>",
   "license": "MIT",
   "description": "A professional 3D model renderer component for React using Three.js. Render GLTF/GLB models with interactive controls, lighting, camera adjustments, and responsive design.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourname/3d-gym-renderer"
+    "url": "https://github.com/HEMA-HEMDAN/3drenderer"
   },
-  "bugs": {
-    "url": "https://github.com/yourname/3d-gym-renderer/issues"
-  },
-  "homepage": "https://github.com/yourname/3d-gym-renderer#readme",
+  "homepage": "https://github.com/HEMA-HEMDAN/3drenderer#readme",
   "files": [
     "ModelsRenderer.jsx",
     "README.md",
