@@ -1,9 +1,12 @@
 {
   "private": false,
   "name": "3drenderer",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "type": "module",
   "main": "ModelsRenderer.jsx",
+  "bin": {
+    "3drenderer": "./cli.mjs"
+  },
   "exports": {
     ".": "./ModelsRenderer.jsx"
   },
@@ -16,7 +19,8 @@
     "three.js",
     "renderer",
     "model-viewer",
-    "gltf"
+    "gltf",
+    "cli"
   ],
   "author": "hema hemdan <contact@ibrahim-hemdan.com>",
   "license": "MIT",
@@ -28,17 +32,21 @@
   "homepage": "https://github.com/HEMA-HEMDAN/3drenderer#readme",
   "files": [
     "ModelsRenderer.jsx",
+    "cli.mjs",
     "README.md",
     "LICENSE"
   ],
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "three": "^r128.0.0"
+    "react": "*",
+    "react-dom": "*",
+    "three": "*"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.0.0",
-    "@react-three/drei": "^9.0.0",
-    "leva": "^0.9.0"
+    "@react-three/fiber": "*",
+    "@react-three/drei": "*",
+    "leva": "*",
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.0",
+    "chalk": "^5.3.0"
   }
 }
